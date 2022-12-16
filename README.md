@@ -6,7 +6,7 @@ Stay tuned.
 
 Until finalized, you may check
 
-- the openCLIP repository that points to pre-trained models used in this study: https://github.com/mlfoundations/open_clip
+- the [openCLIP](https://github.com/mlfoundations/open_clip) repository that points to the pre-trained models used in this study
 - the [LAION-400m](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion400m.md) and [LAION-5B](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion5B.md) composition instructions, the datasets used for openCLIP pre-training in this study
 - [CLIP Benchmarking](https://github.com/LAION-AI/CLIP_benchmark), transfer evaluation used in this study
 
