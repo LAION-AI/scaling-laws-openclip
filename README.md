@@ -23,8 +23,8 @@ If you find this work helpful, please cite our paper:
 ```
 @article{,
   title={Reproducible scaling laws for contrastive language-image learning},
-  author={},
-  journal={},
+  author={Mehdi Cherti, Romain Beaumont, Ross Wightman, Mitchell Wortsman, Gabriel Ilharco, Cade Gordon, Christoph Schuhmann, Ludwig Schmidt, Jenia Jitsev},
+  journal={arXiv:2212.07143},
   year={2022}
 }
 ```
