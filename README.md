@@ -15,19 +15,25 @@ Until finalized, you may check
 
 # Download pre-trained models
 
-First, install dependencies, using: `pip install -r requirements.txt`
+First, you need to clone the repo and install the requirements.
+
+```bash
+git clone https://github.com/LAION-AI/scaling-laws-openclip
+cd scaling-laws-openclip
+pip install -r requirements.txt
+```
 
 We provide a script, `download.py`, to download all pre-trained models used in the paper.
 To download all the 29 models used in the paper, use :
 
 ```bash
-> python download_models.py
+python download_models.py
 ```
 
 You can also download a subset of the models. For instance:
 
 ```bash
-> python download_models.py --samples_seen 3B 13B --model ViT-B-32 --data 80M 400M 2B
+python download_models.py --samples_seen 3B 13B --model ViT-B-32 --data 80M 400M 2B
 ```
 
 will only download ViT-B/32 models with samples seen of 3B or 13B, trained on any of 80M/400M/2B LAION datasets.
@@ -35,10 +41,12 @@ will only download ViT-B/32 models with samples seen of 3B or 13B, trained on an
 # Using pre-training models in OpenCLIP
 
 Once you download the pre-trained models, you can also use them in OpenCLIP.
-Following is an example.
+Following is an example with ViT-H/14.
+
+First, you need to download the model:
 
 ```bash
-> python download_models.py --samples_seen 34B --model ViT-H-14 --data 2B
+python download_models.py --samples_seen 34B --model ViT-H-14 --data 2B
 ```
 
 Once the model is downloaded, it is possible to directly use it in OpenCLIP:
