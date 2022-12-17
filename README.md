@@ -46,7 +46,9 @@ Following is an example with ViT-H/14.
 First, you need to download the model:
 
 ```bash
-python download_models.py --samples_seen 34B --model ViT-H-14 --data 2B
+> python download_models.py --samples_seen 34B --model ViT-H-14 --data 2B
+
+'Model-H-14_Data-2B_Samples-34B_lr-5e-4_bs-79k.pt' downloaded.
 ```
 
 Once the model is downloaded, it is possible to directly use it in OpenCLIP:
