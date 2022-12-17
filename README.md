@@ -12,9 +12,37 @@ Until finalized, you may check
 
 ## Introduction
 
-## Organization
 
-## Installation
+# Download pre-trained models
+
+We provide a script, `download.py` to download all pre-trained models used in the paper.
+To download all the 29 models used in the paper, use `python download_models.py`.
+
+You can also download a subset of the models. For instance:
+
+`python download_models.py --samples_seen 3B 13B --model ViT-B-32 --data 80M 400M 2B`
+
+will only download ViT-B/32 models with samples seen of 3B or 13B, trained on any of 80M/400M/2B LAION datasets.
+
+# Using pre-training models in OpenCLIP
+
+Once you download the pre-trained models, you can also use them in OpenCLIP.
+Following is an example.
+
+```bash
+> python download_models.py --samples_seen 34B --model ViT-H-14 --data 2B
+
+Downloading https://huggingface.co/laion/scaling-laws-openclip/resolve/main/Model-H-14_Data-2B_Samples-34B_lr-5e-4_bs-79k.pt to Model-H-14_Data-2B_Samples-34B_lr-5e-4_bs-79k.pt
+```
+
+Once the model is downloaded, it is possible to directly use it in OpenCLIP:
+
+```python
+import torch
+import open_clip
+model, _, preprocess = open_clip.create_model_and_transforms('ViT-H-14', pretrained='')
+```
+See https://github.com/mlfoundations/open_clip#usage for more detailed usage of OpenCLIP.
 
 ## Citation
 
