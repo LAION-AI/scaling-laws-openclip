@@ -6,7 +6,7 @@ Stay tuned.
 
 Until finalized, you may check
 
-- the openCLIP repository that points to pre-trained models used in this study: https://github.com/mlfoundations/open_clip
+- the [openCLIP](https://github.com/mlfoundations/open_clip) repository that points to the pre-trained models used in this study
 - the [LAION-400m](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion400m.md) and [LAION-5B](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion5B.md) composition instructions, the datasets used for openCLIP pre-training in this study
 - [CLIP Benchmarking](https://github.com/LAION-AI/CLIP_benchmark), transfer evaluation used in this study
 
@@ -23,8 +23,8 @@ If you find this work helpful, please cite our paper:
 ```
 @article{,
   title={Reproducible scaling laws for contrastive language-image learning},
-  author={},
-  journal={},
+  author={Mehdi Cherti, Romain Beaumont, Ross Wightman, Mitchell Wortsman, Gabriel Ilharco, Cade Gordon, Christoph Schuhmann, Ludwig Schmidt, Jenia Jitsev},
+  journal={arXiv:2212.07143},
   year={2022}
 }
 ```
