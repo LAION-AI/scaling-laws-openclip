@@ -52,10 +52,10 @@ See https://github.com/mlfoundations/open_clip#usage for more detailed usage of 
 If you find this work helpful, please cite our paper:
 
 ```
-@article{,
+@article{cherti2022reproducible,
   title={Reproducible scaling laws for contrastive language-image learning},
-  author={Mehdi Cherti, Romain Beaumont, Ross Wightman, Mitchell Wortsman, Gabriel Ilharco, Cade Gordon, Christoph Schuhmann, Ludwig Schmidt, Jenia Jitsev},
-  journal={arXiv:2212.07143},
+  author={Cherti, Mehdi and Beaumont, Romain and Wightman, Ross and Wortsman, Mitchell and Ilharco, Gabriel and Gordon, Cade and Schuhmann, Christoph and Schmidt, Ludwig and Jitsev, Jenia},
+  journal={arXiv preprint arXiv:2212.07143},
   year={2022}
 }
 ```
