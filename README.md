@@ -15,6 +15,8 @@ Until finalized, you may check
 
 # Download pre-trained models
 
+First, install dependencies, using: `pip install -r requirements.txt`
+
 We provide a script, `download.py` to download all pre-trained models used in the paper.
 To download all the 29 models used in the paper, use :
 
