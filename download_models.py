@@ -15,4 +15,5 @@ for model in args.model:
             if len(res) == 1:
                 filename = res.name.tolist()[0]
                 hf_hub_download("laion/scaling-laws-openclip", filename, cache_dir=".", force_filename=filename)
+                print(f"{filename} downloaded.")
 
