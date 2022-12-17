@@ -43,7 +43,7 @@ Once the model is downloaded, it is possible to directly use it in OpenCLIP:
 ```python
 import torch
 import open_clip
-model, _, preprocess = open_clip.create_model_and_transforms('ViT-H-14', pretrained='')
+model, _, preprocess = open_clip.create_model_and_transforms('ViT-H-14', pretrained='Model-H-14_Data-2B_Samples-34B_lr-5e-4_bs-79k.pt')
 ```
 See https://github.com/mlfoundations/open_clip#usage for more detailed usage of OpenCLIP.
 
