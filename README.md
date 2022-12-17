@@ -27,7 +27,7 @@ To download all the 29 models used in the paper, use :
 You can also download a subset of the models. For instance:
 
 ```bash
-python download_models.py --samples_seen 3B 13B --model ViT-B-32 --data 80M 400M 2B
+> python download_models.py --samples_seen 3B 13B --model ViT-B-32 --data 80M 400M 2B
 ```
 
 will only download ViT-B/32 models with samples seen of 3B or 13B, trained on any of 80M/400M/2B LAION datasets.
