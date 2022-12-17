@@ -16,7 +16,10 @@ Until finalized, you may check
 # Download pre-trained models
 
 We provide a script, `download.py` to download all pre-trained models used in the paper.
-To download all the 29 models used in the paper, use `python download_models.py`.
+To download all the 29 models used in the paper, use :
+
+`python download_models.py`
+
 
 You can also download a subset of the models. For instance:
 
