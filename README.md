@@ -12,8 +12,11 @@ Until finalized, you may check
 
 ## Introduction
 
+## Scaling plots
 
-# Download pre-trained models
+To reproduce scaling plots from the paper, see the [figures](figures.ipynb) notebook.
+
+## Download pre-trained models
 
 First, you need to clone the repo and install the requirements.
 
@@ -38,7 +41,7 @@ python download_models.py --samples_seen 3B 13B --model ViT-B-32 --data 80M 400M
 
 will only download ViT-B/32 models with samples seen of 3B or 13B, trained on any of 80M/400M/2B LAION datasets.
 
-# Using pre-training models in OpenCLIP
+## Using pre-training models in OpenCLIP
 
 Once you download the pre-trained models, you can also use them in OpenCLIP.
 Following is an example with ViT-H/14.
@@ -59,7 +62,7 @@ import open_clip
 model, _, preprocess = open_clip.create_model_and_transforms('ViT-H-14', pretrained='Model-H-14_Data-2B_Samples-34B_lr-5e-4_bs-79k.pt')
 ```
 
-For a complete example, see the note [inference](inference.ipynb) notebook
+For a complete example, see the [inference](inference.ipynb) notebook.
 
 ## Citation
 
