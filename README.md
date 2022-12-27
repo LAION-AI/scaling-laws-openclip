@@ -58,7 +58,8 @@ import torch
 import open_clip
 model, _, preprocess = open_clip.create_model_and_transforms('ViT-H-14', pretrained='Model-H-14_Data-2B_Samples-34B_lr-5e-4_bs-79k.pt')
 ```
-See <https://github.com/mlfoundations/open_clip#usage> for more detailed usage of OpenCLIP.
+
+For a complete example, see the note [inference](inference.ipynb) notebook
 
 ## Citation
 
