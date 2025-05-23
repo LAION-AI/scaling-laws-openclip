@@ -13,6 +13,7 @@ You may also check other related resources:
 
 - the [OpenCLIP](https://github.com/mlfoundations/open_clip) repository that points to the pre-trained models used in this study
 - the [LAION-400m](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion400m.md) and [LAION-5B](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion5B.md) composition instructions, the datasets used for openCLIP pre-training in this study
+- The instructions are also valid for the updated safety revision of those datasets, [Re-LAION](https://laion.ai/blog/relaion-5b/). Follow [Re-LAION-research](https://huggingface.co/collections/laion/re-laion-5b-research-67e312387d2a4f879c4920b1) or [Re-LAION-research-safe](https://huggingface.co/collections/laion/re-laion-5b-research-safe-67e311013ba899a938569e32) to obtain [Re-LAION](https://laion.ai/blog/relaion-5b/) datasets for openCLIP experiments. 
 - [CLIP Benchmarking](https://github.com/LAION-AI/CLIP_benchmark), transfer evaluation used in this study
 
 ## Introduction
