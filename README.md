@@ -4,9 +4,11 @@
 
 In this repository, we provide the code for reproducing the experiments on large-scale CLIP pre-training and transfer to various downstream tasks for the paper "Reproducible scaling laws for contrastive language-image learning", together with pointers to open artefacts from this study (pre-trained models and all the intermediate checkpoints).
 
+## Artefacts
 Pre-trained openCLIP models across various scales, final checkpoints: https://huggingface.co/laion/scaling-laws-openclip/tree/main \
 All intermediate checkpoints for the pre-trained models (useful for studying training dynamics): https://huggingface.co/laion/scaling-laws-openclip/tree/main/full_checkpoints 
 
+## Related resources
 You may also check other related resources:
 
 - the [OpenCLIP](https://github.com/mlfoundations/open_clip) repository that points to the pre-trained models used in this study
