@@ -75,11 +75,12 @@ For a complete example, see the [inference](inference.ipynb) notebook.
 If you find this work helpful, please cite our paper:
 
 ```bibtex
-@article{cherti2022reproducible,
+@inproceedings{cherti2023reproducible,
   title={Reproducible scaling laws for contrastive language-image learning},
   author={Cherti, Mehdi and Beaumont, Romain and Wightman, Ross and Wortsman, Mitchell and Ilharco, Gabriel and Gordon, Cade and Schuhmann, Christoph and Schmidt, Ludwig and Jitsev, Jenia},
-  journal={arXiv preprint arXiv:2212.07143},
-  year={2022}
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={2818--2829},
+  year={2023}
 }
 ```
 ## Acknowledgements
