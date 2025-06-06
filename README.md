@@ -84,3 +84,11 @@ If you find this work helpful, please cite our paper:
 }
 ```
 ## Acknowledgements
+
+We would like to express gratitude to all the people who are working on making code, models and data publicly available, advancing community based research and making research more reproducible. Specifically, we would like to thank all the members of the [LAION discord server](https://discord.gg/BZqhreFazY) community that was pivotal for the effort to compose LAION-400m and LAION-5B datasets without which this study would be impossible, and openAI for making their pre-trained CLIP models publicly available. We want to thank Hugging Face for providing hosting space for open datasets and models and Stability AI for providing supercomputing resources and storage space.
+
+The authors gratefully acknowledge the [Gauss Centre for Supercomputing e.V.](https://gauss-centre.eu) for funding this work by providing computing time through the John von Neumann Institute for Computing (NIC) on the GCS Supercomputer JUWELS Booster \citep{JUWELSBooster2020} at Jülich Supercomputing Centre (JSC). We also acknowledge storage resources on [JUST](https://www.fz-juelich.de/en/ias/jsc/systems/storage-systems/just) granted and operated by JSC, as well as computing resources from the Helmholtz Data Federation (HDF). Further thank goes for support provided by JSC supercomputing facility administration team, especially to Damian Alvarez for his endurance and patience during the long "de-micing" sessions on JUWELS Booster.
+
+Mehdi Cherti and Jenia Jitsev acknowledge partial funding by the Federal Ministry of Education and Research of Germany under BMBF grant no. 01IS22094B WestAI - AI Service Center West.
+
+Special thanks goes also to Richard Vencu (LAION, Stability AI) for his on-going dedication towards enabling a HPC system and infrastructure around it that can be used by broad community of researchers and citizen scientists.
